@@ -1,0 +1,7 @@
+.git
+.edib.log
+_build
+deps
+node_modules
+rel/$(APP_NAME)
+tarballs

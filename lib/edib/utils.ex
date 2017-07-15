@@ -2,7 +2,7 @@ defmodule EDIB.Utils do
   @moduledoc false
 
   def print(message),
-    do: Mix.shell.info(message)
+    do: Mix.Shell.info(message)
 
   @doc "Print an informational message without color"
   def debug(message),
